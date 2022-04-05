@@ -1,8 +1,8 @@
-# Tailwind Manage Landing Page
+# Arilyd Associates Landing Page
 
-This is the project from my 2022 Tailwind Crash Course on YouTube.
+To be the leading provider of choice of customized professional business solutions in Bookkeeping, Accounting System setup, Tax Management and Internal Auditing.
 
-![Alt text](/img/screen.png?raw=true)
+<!-- ![Alt text](/img/screen.png?raw=true) -->
 
 # Usage
 
