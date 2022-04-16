@@ -1,6 +1,6 @@
 # Arilyd Associates Landing Page
 
-To be the leading provider of choice of customized professional business solutions in Bookkeeping, Accounting System setup, Tax Management and Internal Auditing.
+To be the leading provider of choice of customized professional business solutions in Book keeping, Accounting System setup, Tax Management and Internal Auditing.
 
 <!-- ![Alt text](/img/screen.png?raw=true) -->
 
