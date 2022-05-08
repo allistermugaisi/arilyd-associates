@@ -15,209 +15,107 @@ const dropdownIcon = () => {
 const countries = [
 	{
 		id: 1,
-		name: 'Canada',
-		content: `Canada has become a sought after destination for international students wishing to pursue their masters, bachelors or doctorate degrees. <br/><br/>
-		Victoria Visa Consultants has expert agents who are there to guide you in terms of student counseling, institute selection and other procedures so give us a visit and we will surely be able to assist you with your visa matters.
-	 <br/><br/>Education in Canada is under the complete jurisdiction of the provinces and territories (States) and as such, there is no Federal (Central) education system in Canada. 
-	 In keeping with the national commitment to education, public education in Canada is free up to and including secondary school (12th Std), in all the provinces. At the postsecondary level, institutions are divided into community colleges and universities. 
-	 A significant number of university graduates attend college upon completion of their degree in order to acquire vocational skills for employment.`,
+		name: 'Book Keeping',
+		content: `The objective of Book-Keeping and Accountancy services is to help the directors or owners of
+        the business make informed, accurate and timely decisions for the day to day running operations
+        of the business in general and to particularly monitor critical aspects of the business such as
+        sales, purchases, expenses and profitability patterns. Moreover, the book keeping and
+        accountancy of a business has to be done in such a way to ensure compliance with the
+        International Financial Reporting Standards and local legal requirements like the Companies Act,
+        Income Tax Act, VAT Act, etc... <br/><br/>
+        The objective of financial statements is to provide information about the financial position,
+        performance and changes in financial position of an equity that is useful to a wide range of users
+        in making economic decisions. In particular we tailor make the book keeping processes to ensure
+        the qualitative aspects of understandability, relevance, reliability and comparability of the
+        financial statements are captured.
+        <br/><br/>The accounting services would in details for example involve:<br/><br/>
+        <strong>On a weekly basis:</strong><br/><br/>1. Posting Sales<br/>2. Posting Purchases<br/>3. Posting Cashbook<br/>4. Reconciliation of daily banking against daily sales collections.<br/><br/>
+        <strong>On a weekly basis:</strong><br/><br/>1. Monthly Management Accounts.<br/>2. Preparing Schedules of all cost centers.<br/>3. Preparing schedules for all revenue centers.<br/>
+        4. Reconciliation of Cashbook and the bank Statements.<br/>5. Extracting trial balance.<br/>6. Income Statements &amp; Balance Sheet.`,
 	},
 	{
 		id: 2,
-		name: 'Australia',
-		content: `Australia has become a sought after destination for international students wishing to pursue their masters, bachelors or doctorate degrees.<br/><br/>Victoria Visa Consultants has expert agents who are there to guide you in terms of student counseling, institute selection and other procedures so give us a visit and we will surely be able to assist you with your visa matters.<br/><br/>
-		Australia offers a diverse range of study options for international students, with more than 1,200 institutions and over 22,000 courses to choose from. The Australian higher education system consists of independent, self-governing public and private universities and higher education institutions that award higher education qualifications.<br/><br/>
-		Australia generally has two intakes i.e. February and July, with few Universities offering multiple intake in September & November. It is suggested that you should start making applications ideally 7-8 months prior to the intake. University generally takes around 4-6 weeks to process the applications.`,
+		name: 'Accounting System Set Up and Monitoring',
+		content: `The impact of Information Technology in business cannot be over-emphasized. However, to
+        achieve maximum output results from the IT use, the business must carefully plan and design its
+        systems before implementation. Technological advances have created an environment of rapid
+        growth, and in response, accounting has evolved in complexity.<br/><br/>
+        The use of IT is supposed to process data into information in a format that reflects the business
+        operations as per the users’ requirements and expectations. Thus the need to design the systems
+        to as per reporting expectations to the management. Hence we assist our clients in designing and
+        implementing an appropriate Accounting system tailor made to their financial requirements.
+        <br/><br/>Accounting soft-wares are generally classified into three tiers, from the lowest (basic)
+        applications to the higher ones that combine all business functions. Tier three includes the easy
+        to use accounting software that requires minimal accounting or book keeping skills. For example
+        some of the off shelf packages such as QuickBooks, Pastel &amp; Sage which are designed for small
+        to medium size businesses that have less complicated accounting environment. But some
+        medium to large sized firms may prefer custom-built software projects or Enterprise Resource
+        Planning (ERP) for complete integration across all functional departments in the organization.<br/><br/>
+        Through computerized accounting, the role of accountants focus more on taking center stage in
+        their companies i.e. handling greater responsibility and participating in broader business issues.
+        In regard to Accounting systems design and implementation, we advise our clients on the
+        appropriate financial management solution to adopt and in particular ensures the system is
+        appropriate by considering:<br/><br/>1. The system is cost effective and achieves sound return on the investment.<br/>
+        2. The system is able to integrate all aspects of the business.<br/>3. The system is able to harness the internet, powerful database and network technologies
+        to the extent of information, applications, and processes to employees, customers and
+        suppliers.<br/>4. The system is supported, has been tried and tested.<br/>5. The system is flexible to allow business changes.<br/>
+        6. The system is strongly secured; strong security features hard to crack by unauthorized
+        persons.`,
 	},
 	{
 		id: 3,
-		name: 'UK',
-		content: `UK has become a sought after destination for international students wishing to pursue their masters, bachelors or doctorate degrees.<br/><br/>Victoria Visa Consultants has expert agents who are there to guide you in terms of student counseling, institute selection and other procedures so give us a visit and we will surely be able to assist you with your visa matters.<br/><br/>
-		Victoria Visa Consultants has expert agents who are there to guide you in terms of student counseling, institute selection and other procedures so give us a visit and we will surely be able to assist you with your visa matters.<br/><br/>
-		UK education is recognized and respected throughout the world. The education system in the UK is divided into four main parts, primary education, secondary education, further education and higher education. Children in the UK have to legally attend primary and secondary education which runs from about 5 years old until the student is 16 years old.<br/><br/>An undergraduate degree normally takes three years to complete but can take longer if they include an industrial placement, an additional subject or a year abroad. They are also specialised from Year One. Students who receive good grades in their undergraduate degrees may choose to take a Masters degree, which takes a minimum of one year to complete. The main intake offered by all Universities is September / October few universities offer January / February intake also. Few universities also offer admission 3 to 4 times in a year.`,
+		name: 'Taxation Management Services',
+		content: `The objective in tax management is to offer professional advice to our clients so as to ensure that
+        they comply with the various tax regulations in force. Non-compliance is an offence that could
+        attract heavy penalties and or custodial sentences.<br/><br/>Thus we do this by advising our client how to plan their operations such that they incur only the
+        necessary taxes that they must pay in regard to the business operations without necessarily
+        committing the offence of tax evasion. This is a critical area in the overall business management
+        because virtually all businesses have to pay taxes in one form or another.<br/><br/>The tax laws are by their nature very dynamic, in fact the Kenyan tax system is constantly under
+        review almost yearly during government budget and as such the businesses need to keep abreast
+        with all the changes and evaluate their impact in their overall business.<br/><br/>
+        The firm boasts of a team with in-depth understanding and experience of the Kenyan tax law
+        system as stipulated in the various tax Acts i.e. the Income Tax Act Cap 470, VAT Act Cap 476,
+        Customs &amp; Excise Act Cap 472 and other tax related laws.
+        <br/><br/>The accounting services would in details for example involve:<br/><br/>
+        <strong>Income Taxes:</strong><br/><br/>1. Annual Income Tax Returns Computations and filing with the Income Tax Department.<br/>2. The Monthly Pay as you Earn (PAYE) and Annual PAYE returns for Employers.<br/>
+        3. Annual Individual PAYE Return. It’s now mandatory for all individuals to make their annual
+        selfassessment to Income tax department by 30th June of every year to assess whether they
+        overpaid or underpaid income taxes. Overpaid taxes are refundable by KRA.<br/>4. Withholding taxes.<br/><br/>
+        <strong>Value Added Taxes:</strong><br/><br/>1. Monthly VAT Returns.<br/>2. VAT refunds claims for instance all VAT claims above Ksh. 1,000,000 must have an auditor&#39;s
+        certificate.<br/>3. Customs &amp; Excise Taxes.<br/>
+        4. Tax computations on Imports, i.e. computation of duty, excise taxes and VAT on imports.<br/>5. Extracting trial balance.<br/>Export and Import documentation.<br/><br/><strong>Rental Income Taxes:</strong><br/><br/>
+        1. Monthly and annual Residential Rental Income Tax returns.<br/>2. Monthly and annual Rental
+        Income Tax returns,`,
 	},
 	{
 		id: 4,
-		name: 'USA',
-		content: `USA has become a sought after destination for international students wishing to pursue their masters, bachelors or doctorate degrees.<br/><br/>
-		Victoria Visa Consultants has expert agents who are there to guide you in terms of student counseling, institute selection and other procedures so give us a visit and we will surely be able to assist you with your visa matters.<br/><br/>
-		Students who have completed high school and would like to attend college or university must attend what is referred to as an undergraduate school. These are schools that offer either a two-year degree (called an associate degree) or a four-year degree (called a bachelors degree) in a specific course of study. That course of study is called the major. While most schools that offer a four-year degree will admit students who have not yet chosen a major, all students are required to select (or declare) a major by their second year at school. Students who complete an associate degree can continue their education at a four-year school and eventually complete a bachelor degree.`,
+		name: 'Payroll Management',
+		content: `The objective of Payroll Management is to provide information on human resource costs and
+        how best to manage the same. The business may prefer to outsource its payroll functions so as to
+        concentrate on its core business.<br/><br/>
+        The firm guarantees the highest level of confidentiality in dealing with payroll matters and
+        ensures compliance with the various statutory regulations.
+        <br/><br/>Monthly Payroll administration will involve processing the following:<br/><br/>
+        1. Processing the Master Payroll<br/>2. Preparing the monthly pay slips per employee.<br/>3. Preparing NSSF monthly and annual returns.<br/>4. Preparing NHIF monthly and annual returns.<br/>5. Preparing PAYE (P9 &amp; P10) monthly and annual returns<br/>
+        `,
 	},
 	{
 		id: 5,
-		name: 'Belgium',
-		content: `Belgium has become a sought after destination for international students wishing to pursue their masters, bachelors or doctorate degrees.<br/><br/>
-		Victoria Visa Consultants has expert agents who are there to guide you in terms of student counseling, institute selection and other procedures so give us a visit and we will surely be able to assist you with your visa matters.<br/><br/>
-		The Belgium education system is based upon teaching, research and service to the community and is divided among different regions of the country.<br/><br/>
-		In addition, you can find university colleges and art colleges which offer long and short-term programs or vocational professional training. Education in Belgium is administered by each region separately and each region determines their own rules regarding admissions, tuition fees and language of instruction.`,
-	},
-	{
-		id: 6,
-		name: 'Denmark',
-		content: `Denmark has become a sought after destination for international students wishing to pursue their masters, bachelors or doctorate degrees.<br/><br/>
-		Victoria Visa Consultants has expert agents who are there to guide you in terms of student counseling, institute selection and other procedures so give us a visit and we will surely be able to assist you with your visa matters.<br/><br/>
-		Danish universities promote personal initiative and problem-based learning, combining traditional lectures with industrial placements that allows for the practical application of studies.`,
-	},
-	{
-		id: 7,
-		name: 'Czech Republic',
-		content: `Czech Republic has become a sought after destination for international students wishing to pursue their masters, bachelors or doctorate degrees.<br/><br/>
-		Victoria Visa Consultants has expert agents who are there to guide you in terms of student counseling, institute selection and other procedures so give us a visit and we will surely be able to assist you with your visa matters.<br/><br/>
-		Czech Republic is a fascinating and welcoming country. Czech Republic is a heaven for students welcoming around 35,000 internationals each year and offers quality education for free.`,
-	},
-	{
-		id: 8,
-		name: 'Estonia',
-		content: `Estonia has become a sought after destination for international students wishing to pursue their masters, bachelors or doctorate degrees.<br/><br/>
-		Victoria Visa Consultants has expert agents who are there to guide you in terms of student counseling, institute selection and other procedures so give us a visit and we will surely be able to assist you with your visa matters.<br/><br/>
-		Estonian higher education is well respected around the world. The country is a participant in the Bologna process, which aims to standardize higher education across Europe, and its University diplomas are internationally accepted. Currently there are 15 public universities in Estonia, and 9 private. English is widely spoken, and most universities in Estonia offer a wide variety of english - taught programs.`,
-	},
-	{
-		id: 9,
-		name: 'Finland',
-		content: `Estonia has become a sought after destination for international students wishing to pursue their masters, bachelors or doctorate degrees.<br/><br/>
-		Victoria Visa Consultants has expert agents who are there to guide you in terms of student counseling, institute selection and other procedures so give us a visit and we will surely be able to assist you with your visa matters.<br/><br/>
-		Finland is considered to have one of the best, if not the top, education systems in the world. One of the most unique and greatest things for European international students in Finland is that the education is completely free. Students are not required to pay tuition or fees and even their meals are free. Schools in Finland offer several different types of degree programs including engineering, business and medicine.`,
-	},
-	{
-		id: 10,
-		name: 'France',
-		content: `France has become a sought after destination for international students wishing to pursue their masters, bachelors or doctorate degrees.<br/><br/>
-		Victoria Visa Consultants has expert agents who are there to guide you in terms of student counseling, institute selection and other procedures so give us a visit and we will surely be able to assist you with your visa matters.<br/><br/>
-		The French higher education system is one of the best in the world. It is low tuition fees, studying in France is more economical for international students. French universities are near the top of renowned university ranking each year.`,
-	},
-	{
-		id: 11,
-		name: 'Germany',
-		content: `Germany has become a sought after destination for international students wishing to pursue their masters, bachelors or doctorate degrees.<br/><br/>
-		Victoria Visa Consultants has expert agents who are there to guide you in terms of student counseling, institute selection and other procedures so give us a visit and we will surely be able to assist you with your visa matters.<br/><br/>
-		Germany is one of the most popular destinations for international students. At German universities, you will enjoy quality education and numerous bachelor's and master's programs taught in english. Most Study programs are also free for all foreign students. `,
-	},
-	{
-		id: 12,
-		name: 'Greece',
-		content: `Swaziland company registry documents- Registry extracts, annual returns certificate of incorporation.<br/><br/>
-		Swaziland Business information reports- company name & registration Number, legal status, Registered address, shareholdings & directorships.<br/><br/>
-		Swaziland Credit reports, Swaziland Due diligence services, Swaziland Litigation search/checks, Swaziland Property search/checks, Swaziland court records search, Swaziland Adverse media search, Swaziland compliance checks, Swaziland Directorships Checks/search, Swaziland Shareholdings Checks/search., Swaziland Business and market intelligence, Swaziland Risk intelligence data, Swaziland Third-party enhanced due diligence, Swaziland Investigative services.`,
-	},
-	{
-		id: 13,
-		name: 'Hungary',
-		content: `Zambia company registry documents- Registry extracts, annual returns certificate of incorporation.<br/><br/>
-		Zambia Business information reports- company name & registration Number, legal status, Registered address, shareholdings & directorships.<br/><br/>
-		Zambia Credit reports, Zambia Due diligence services, Zambia Litigation search/checks, Zambia Property search/checks, Zambia court records search, Zambia Adverse media search, Zambia compliance checks, Zambia Directorships Checks/search, Zambia Shareholdings Checks/search., Zambia Business and market intelligence, Zambia Risk intelligence data, Zambia Third-party enhanced due diligence, Zambia Investigative services.`,
-	},
-	{
-		id: 14,
-		name: 'Iceland',
-		content: `Cameroon company registry documents- Registry extracts, annual returns certificate of incorporation.<br/><br/>
-		Cameroon Business information reports- company name & registration Number, legal status, Registered address, shareholdings & directorships.<br/><br/>
-		Cameroon Credit reports, Cameroon Due diligence services, Cameroon Litigation search/checks, Cameroon Property search/checks, Cameroon court records search, Cameroon Adverse media search, Cameroon compliance checks, Cameroon Directorships Checks/search, Cameroon Shareholdings Checks/search., Cameroon Business and market intelligence, Cameroon Risk intelligence data, Cameroon Third-party enhanced due diligence, Cameroon Investigative services.`,
-	},
-	{
-		id: 15,
-		name: 'Italy',
-		content: `DRC Congo company registry documents- Registry extracts, annual returns certificate of incorporation.<br/><br/>
-		DRC Congo Business information reports- company name & registration Number, legal status, Registered address, shareholdings & directorships.<br/><br/>
-		DRC Congo Credit reports, DRC Congo Due diligence services, DRC Congo Litigation search/checks, DRC Congo Property search/checks, DRC Congo court records search, DRC Congo Adverse media search, DRC Congo compliance checks, DRC Congo Directorships Checks/search, DRC Congo Shareholdings Checks/search., DRC Congo Business and market intelligence, DRC Congo Risk intelligence data, DRC Congo Third-party enhanced due diligence, DRC Congo Investigative services.`,
-	},
-	{
-		id: 16,
-		name: 'Latvia',
-		content: `Seychelles & Madagascar company registry documents- Registry extracts, annual returns certificate of incorporation.<br/><br/>
-		Seychelles & Madagascar Business information reports- company name & registration Number, legal status, Registered address, shareholdings & directorships.<br/><br/>
-		Seychelles & Madagascar Credit reports, Seychelles & Madagascar Due diligence services, Seychelles & Madagascar Litigation search/checks, Seychelles & Madagascar Property search/checks, Seychelles & Madagascar court records search, Seychelles & Madagascar Adverse media search, Seychelles & Madagascar compliance checks, Seychelles & Madagascar Directorships Checks/search, Seychelles & Madagascar Shareholdings Checks/search., Seychelles & Madagascar Business and market intelligence, Seychelles & Madagascar Risk intelligence data, Seychelles & Madagascar Third-party enhanced due diligence, Seychelles & Madagascar Investigative services.`,
-	},
-	{
-		id: 17,
-		name: 'Liechtenstein',
-		content: `Malawi company registry documents- Registry extracts, annual returns certificate of incorporation.<br/><br/>
-		Malawi Business information reports- company name & registration Number, legal status, Registered address, shareholdings & directorships.<br/><br/>
-		Malawi Credit reports, Malawi Due diligence services, Malawi Litigation search/checks, Malawi Property search/checks, Malawi court records search, Malawi Adverse media search, Malawi compliance checks, Malawi Directorships Checks/search, Malawi Shareholdings Checks/search., Malawi Business and market intelligence, Malawi Risk intelligence data, Malawi Third-party enhanced due diligence, Malawi Investigative services.`,
-	},
-	{
-		id: 18,
-		name: 'Lithuania',
-		content: `Zimbabwe company registry documents- Registry extracts, annual returns certificate of incorporation.<br/><br/>
-		Zimbabwe Business information reports- company name & registration Number, legal status, Registered address, shareholdings & directorships.<br/><br/>
-		Zimbabwe Credit reports, Zimbabwe Due diligence services, Zimbabwe Litigation search/checks, Zimbabwe Property search/checks, Zimbabwe court records search, Zimbabwe Adverse media search, Zimbabwe compliance checks, Zimbabwe Directorships Checks/search, Zimbabwe Shareholdings Checks/search., Zimbabwe Business and market intelligence, Zimbabwe Risk intelligence data, Zimbabwe Third-party enhanced due diligence, Zimbabwe Investigative services.`,
-	},
-	{
-		id: 19,
-		name: `Luxembourg`,
-		content: `Côte d’Ivoire company registry documents- Registry extracts, annual returns certificate of incorporation.<br/><br/>
-		Côte d’Ivoire Business information reports- company name & registration Number, legal status, Registered address, shareholdings & directorships.<br/><br/>
-		Côte d’Ivoire Company Profile Search, Côte d’Ivoire Credit reports, Côte d’Ivoire Due diligence services, Côte d’Ivoire Litigation search/checks, Côte d’Ivoire Property search/checks, Côte d’Ivoire court records search, Côte d’Ivoire Adverse media search, Côte d’Ivoire compliance checks, Côte d’Ivoire Business and market intelligence, Côte d’Ivoire Risk intelligence data, Côte d’Ivoire Third-party enhanced due diligence, Côte d’Ivoire Investigative services.`,
-	},
-	{
-		id: 20,
-		name: `Malta`,
-		content: `Gambia company registry documents- Registry extracts, annual returns certificate of incorporation.<br/><br/>
-		Gambia Business information reports- company name & registration Number, legal status, Registered address, shareholdings & directorships.<br/><br/>
-		Gambia Company Profile Search, Gambia Credit reports, Gambia Due diligence services, Gambia Litigation search/checks, Gambia Property search/checks, Gambia court records search, Gambia Adverse media search, Gambia compliance checks, Gambia Business and market intelligence, Gambia Risk intelligence data, Gambia Third-party enhanced due diligence, Gambia Investigative services.`,
-	},
-	{
-		id: 21,
-		name: `Netherlands`,
-		content: `Mali company registry documents- Registry extracts, annual returns certificate of incorporation.<br/><br/>
-		Mali Business information reports- company name & registration Number, legal status, Registered address, shareholdings & directorships.<br/><br/>
-		Mali Company Profile Search, Mali Credit reports, Mali Due diligence services, Mali Litigation search/checks, Mali Property search/checks, Mali court records search, Mali Adverse media search, Mali compliance checks, Mali Business and market intelligence, Mali Risk intelligence data, Mali Third-party enhanced due diligence, Mali Investigative services.
-		`,
-	},
-	{
-		id: 22,
-		name: `Norway`,
-		content: `Mauritania company registry documents- Registry extracts, annual returns certificate of incorporation.<br/><br/>
-		Mauritania Business information reports- company name & registration Number, legal status, Registered address, shareholdings & directorships.<br/><br/>
-		Mauritania Company Profile Search, Mauritania Credit reports, Mauritania Due diligence services, Mauritania Litigation search/checks, Mauritania Property search/checks, Mauritania court records search, Mauritania Adverse media search, Mauritania compliance checks, Mauritania Business and market intelligence, Mauritania Risk intelligence data, Mauritania Third-party enhanced due diligence, Mauritania Investigative services.`,
-	},
-	{
-		id: 23,
-		name: `Poland`,
-		content: `Niger company registry documents- Registry extracts, annual returns certificate of incorporation.<br/><br/>
-		Niger Business information reports- company name & registration Number, legal status, Registered address, shareholdings & directorships.<br/><br/>
-		Niger Company Profile Search, Niger Credit reports, Niger Due diligence services, Niger Litigation search/checks, Niger Property search/checks, Niger court records search, Niger Adverse media search, Niger compliance checks, Niger Business and market intelligence, Niger Risk intelligence data, Niger Third-party enhanced due diligence, Niger Investigative services.`,
-	},
-	{
-		id: 24,
-		name: `Portugal`,
-		content: `Sierra Leone company registry documents- Registry extracts, annual returns certificate of incorporation.<br/><br/>
-		Sierra Leone Business information reports- company name & registration Number, legal status, Registered address, shareholdings & directorships.<br/><br/>
-		Sierra Leone Company Profile Search, Sierra Leone Credit reports, Sierra Leone Due diligence services, Sierra Leone Litigation search/checks, Sierra Leone Property search/checks, Sierra Leone court records search, Sierra Leone Adverse media search, Sierra Leone compliance checks, Sierra Leone Business and market intelligence, Sierra Leone Risk intelligence data, Sierra Leone Third-party enhanced due diligence, Sierra Leone Investigative services.`,
-	},
-	{
-		id: 25,
-		name: `Slovakia`,
-		content: `Togo company registry documents- Registry extracts, annual returns certificate of incorporation.<br/><br/>
-		Togo Business information reports- company name & registration Number, legal status, Registered address, shareholdings & directorships.<br/><br/>
-		Togo Company Profile Search, Togo Credit reports, Togo Due diligence services, Togo Litigation search/checks, Togo Property search/checks, Togo court records search, Togo Adverse media search, Togo compliance checks, Togo Business and market intelligence, Togo Risk intelligence data, Togo Third-party enhanced due diligence, Togo Investigative services.`,
-	},
-	{
-		id: 26,
-		name: `Slovenia`,
-		content: `Equatorial Guinea company registry documents- Registry extracts, annual returns certificate of incorporation.<br/><br/>
-		Equatorial Guinea Business information reports- company name & registration Number, legal status, Registered address, shareholdings & directorships.<br/><br/>
-		Equatorial Guinea Company Profile Search, Equatorial Guinea Credit reports, Equatorial Guinea Due diligence services, Equatorial Guinea Litigation search/checks, Equatorial Guinea Property search/checks, Equatorial Guinea court records search, Equatorial Guinea Adverse media search, Equatorial Guinea compliance checks, Equatorial Guinea Business and market intelligence, Equatorial Guinea Risk intelligence data, Equatorial Guinea Third-party enhanced due diligence, Equatorial Guinea Investigative services.`,
-	},
-	{
-		id: 27,
-		name: `Spain`,
-		content: `Gabon company registry documents- Registry extracts, annual returns certificate of incorporation.<br/><br/>
-		Gabon Business information reports- company name & registration Number, legal status, Registered address, shareholdings & directorships.<br/><br/>
-		Gabon Company Profile Search, Gabon Credit reports, Gabon Due diligence services, Gabon Litigation search/checks, Gabon Property search/checks, Gabon court records search, Gabon  Adverse media search, Gabon compliance checks, Gabon Business and market intelligence, Gabon Risk intelligence data, Gabon Third-party enhanced due diligence, Gabon Investigative services.`,
-	},
-	{
-		id: 28,
-		name: `Sweden`,
-		content: `Angola company registry documents- Registry extracts, annual returns certificate of incorporation.<br/><br/>
-		Angola Business information reports- company name & registration Number, legal status, Registered address, shareholdings & directorships.<br/><br/>
-		Angola Company Profile Search, Angola Credit reports, Angola Due diligence services, Angola Litigation search/checks, Angola Property search/checks, Angola court records search, Angola  Adverse media search, Angola compliance checks, Angola Business and market intelligence, Angola Risk intelligence data, Angola Third-party enhanced due diligence, Angola Investigative services.`,
-	},
-	{
-		id: 29,
-		name: `Switzerland`,
-		content: `Eritrea Business information reports- company name & registration Number, legal status, Registered address, shareholdings & directorships.<br/><br/>
-		Eritrea Company Profile Search, Eritrea Credit reports, Eritrea Due diligence services, Eritrea Adverse media search, Eritrea compliance checks, Eritrea Business and market intelligence, Eritrea Risk intelligence data, Eritrea Third-party enhanced due diligence, Eritrea Investigative services.`,
+		name: 'Internal Audit Services',
+		content: `As the business expands, its complexity increases and hence its functions must be done by
+        different personnel at different levels. But not all businesses are able to maintain a fully-fledged
+        internal audit department within its organization structures, yet still the management need to
+        assure them that the internal control systems are working as intended.<br/><br/>
+        The objectives of an accounting system are to ensure that all transactions are completely and
+        accurately processed and recorded and the resulting accounting entries are valid.
+        The purpose of internal audit is to ensure that the accounting systems of internal control are
+        working in the business as they were intended to.<br/><br/>
+        Internal audit function thus becomes necessary principally to prevent, detect, correct and
+        adequately disclose errors and irregularities in addition to ensuring an efficient and orderly
+        conduct of business adherence to management policies.<br/><br/>Internal audit functions can be done weekly, monthly, or at quarterly intervals depending on the
+        preference of the management. The frequency of the interval chosen would depend on the level
+        of exposure of the business risk of error, misstatement, falsification of record and fraud.
+        `,
 	},
 ];
 
@@ -311,12 +209,23 @@ dropdown();
 
 // Select Canada on page load as default selected value
 let options = document.querySelectorAll('.options'),
-	name = 'Canada',
-	contentSelected = `Canada has become a sought after destination for international students wishing to pursue their masters, bachelors or doctorate degrees. <br/><br/>
-	Victoria Visa Consultants has expert agents who are there to guide you in terms of student counseling, institute selection and other procedures so give us a visit and we will surely be able to assist you with your visa matters.
- <br/><br/>Education in Canada is under the complete jurisdiction of the provinces and territories (States) and as such, there is no Federal (Central) education system in Canada. 
- In keeping with the national commitment to education, public education in Canada is free up to and including secondary school (12th Std), in all the provinces. At the postsecondary level, institutions are divided into community colleges and universities. 
- A significant number of university graduates attend college upon completion of their degree in order to acquire vocational skills for employment.`;
+	name = 'Book Keeping',
+	contentSelected = `The objective of Book-Keeping and Accountancy services is to help the directors or owners of
+    the business make informed, accurate and timely decisions for the day to day running operations
+    of the business in general and to particularly monitor critical aspects of the business such as
+    sales, purchases, expenses and profitability patterns. Moreover, the book keeping and
+    accountancy of a business has to be done in such a way to ensure compliance with the
+    International Financial Reporting Standards and local legal requirements like the Companies Act,
+    Income Tax Act, VAT Act, etc... <br/><br/>
+    The objective of financial statements is to provide information about the financial position,
+    performance and changes in financial position of an equity that is useful to a wide range of users
+    in making economic decisions. In particular we tailor make the book keeping processes to ensure
+    the qualitative aspects of understandability, relevance, reliability and comparability of the
+    financial statements are captured.
+    <br/><br/>The accounting services would in details for example involve:<br/><br/>
+    <strong>On a weekly basis:</strong><br/><br/>1. Posting Sales<br/>2. Posting Purchases<br/>3. Posting Cashbook<br/>4. Reconciliation of daily banking against daily sales collections.<br/><br/>
+    <strong>On a weekly basis:</strong><br/><br/>1. Monthly Management Accounts.<br/>2. Preparing Schedules of all cost centers.<br/>3. Preparing schedules for all revenue centers.<br/>
+    4. Reconciliation of Cashbook and the bank Statements.<br/>5. Extracting trial balance.<br/>6. Income Statements &amp; Balance Sheet.`;
 
 // console.log(options[0].childNodes[0].textContent);
 // console.log(options);
