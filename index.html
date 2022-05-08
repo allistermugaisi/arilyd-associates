@@ -5,6 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="css/styles.css" />
 		<title>ARILYD & ASSOCIATES</title>
 		<!--========== BOX ICONS ==========-->
 		<link
@@ -26,11 +27,11 @@
 				</div>
 				<!-- Menu Items -->
 				<div class="hidden space-x-6 md:flex">
-					<a href="#" class="hover:text-darkGrayishBlue">Home</a>
+					<a href="/" class="hover:text-darkGrayishBlue">Home</a>
 					<a href="#" class="hover:text-darkGrayishBlue">Services</a>
-					<a href="#" class="hover:text-darkGrayishBlue">About</a>
-					<a href="#" class="hover:text-darkGrayishBlue">Blog</a>
-					<a href="#" class="hover:text-darkGrayishBlue">Contact</a>
+					<a href="/about.html" class="hover:text-darkGrayishBlue">About</a>
+					<a href="/blog.html" class="hover:text-darkGrayishBlue">Blog</a>
+					<a href="/contact.html" class="hover:text-darkGrayishBlue">Contact</a>
 				</div>
 				<!-- Button -->
 				<a
@@ -56,11 +57,11 @@
 					id="menu"
 					class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
 				>
-					<a href="#">Home</a>
-					<a href="#">Objective</a>
+					<a href="/">Home</a>
 					<a href="#">Services</a>
-					<a href="#">About Us</a>
-					<a href="#">Contact Us</a>
+					<a href="/about.html">About</a>
+					<a href="/blog.html">Blog</a>
+					<a href="/contact.html">Contact</a>
 				</div>
 			</div>
 		</nav>
@@ -564,6 +565,81 @@
 			</div>
 		</section>
 
+		<!-- CTA Section -->
+		<section id="cta" class="bg-brightRed">
+			<!-- Flex Container -->
+			<div
+				class="container flex flex-col items-center justify-between px-6 py-24 mx-auto space-y-12 md:py-12 md:flex-row md:space-y-0"
+			>
+				<!-- Heading -->
+				<h2
+					class="text-5xl font-bold leading-tight text-center text-white md:text-4xl md:max-w-xl md:text-left"
+				>
+					Simplify how your accounting works today
+				</h2>
+				<!-- Button -->
+				<div>
+					<a
+						href="#"
+						class="px-6 py-3 text-brightRed bg-white rounded-full shadow-2xl baseline hover:bg-gray-900"
+						>Get Started</a
+					>
+				</div>
+			</div>
+		</section>
+
+		<section class="max-w-6xl p-6 mx-auto text-center">
+			<div class="flex flex-col sm:flex-col md:flex-row items-center space-x-4">
+				<div class="w-full md:h-96 sm:w-1/2">
+					<img
+						class="h-full"
+						src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/c_scale,h_400,w_600/v1650106353/Arilydassociates/call_center_3_r811bd.png"
+						alt="person-support"
+					/>
+				</div>
+				<div class="bg-brightRed mt-4 sm:mt-0 w-full md:h-96 sm:w-1/2">
+					<form class="flex flex-col w-80 md:w-96 mx-auto p-4">
+						<div class="py-2">
+							<div class="bg-white w-1/2 mx-auto py-2 rounded-md">
+								<span class="text-xl text-brightRed">Let's Help You!</span>
+							</div>
+							<h2 class="text-3xl text-white font-bold mt-4">
+								Request a Quote
+							</h2>
+						</div>
+						<input
+							type="text"
+							class="placeholder:italic pl-[14px] focus:outline-none my-4 h-10 rounded-sm"
+							placeholder="Name"
+						/>
+						<input
+							type="text"
+							class="placeholder:italic pl-[14px] focus:outline-none mb-4 h-10 rounded-sm"
+							placeholder="Phone"
+						/>
+						<select
+							id="select"
+							class="placeholder:italic pl-[14px] focus:outline-none mb-4 h-10 rounded-sm"
+						>
+							<option>Book Keeping</option>
+							<option>Payroll Management</option>
+							<option>Accountancy Services</option>
+							<option>Internal Audit Services</option>
+							<option>Tax Management Services</option>
+							<option>Accounting System & Monitoring</option>
+						</select>
+						<div class="support-actions">
+							<button
+								class="px-6 py-3 bg-white rounded-full text-brightRed shadow-2xl baseline hover:bg-gray-900"
+							>
+								Send
+							</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+
 		<div
 			class="px-5 sm:px-10 md:px-20 lg:px-10 xl:px-20 py-8 bg-indigo-100"
 			id="blog-posts"
@@ -690,81 +766,6 @@
 				</div>
 			</div>
 		</div>
-
-		<!-- CTA Section -->
-		<section id="cta" class="bg-brightRed">
-			<!-- Flex Container -->
-			<div
-				class="container flex flex-col items-center justify-between px-6 py-24 mx-auto space-y-12 md:py-12 md:flex-row md:space-y-0"
-			>
-				<!-- Heading -->
-				<h2
-					class="text-5xl font-bold leading-tight text-center text-white md:text-4xl md:max-w-xl md:text-left"
-				>
-					Simplify how your accounting works today
-				</h2>
-				<!-- Button -->
-				<div>
-					<a
-						href="#"
-						class="px-6 py-3 text-brightRed bg-white rounded-full shadow-2xl baseline hover:bg-gray-900"
-						>Get Started</a
-					>
-				</div>
-			</div>
-		</section>
-
-		<section class="max-w-6xl p-6 mx-auto text-center">
-			<div class="flex flex-col sm:flex-col md:flex-row items-center space-x-4">
-				<div class="w-full md:h-96 sm:w-1/2">
-					<img
-						class="h-full"
-						src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/c_scale,h_400,w_600/v1650106353/Arilydassociates/call_center_3_r811bd.png"
-						alt="person-support"
-					/>
-				</div>
-				<div class="bg-brightRed mt-4 sm:mt-0 w-full md:h-96 sm:w-1/2">
-					<form class="flex flex-col w-80 md:w-96 mx-auto p-4">
-						<div class="py-2">
-							<div class="bg-white w-1/2 mx-auto py-2 rounded-md">
-								<span class="text-xl text-brightRed">Let's Help You!</span>
-							</div>
-							<h2 class="text-3xl text-white font-bold mt-4">
-								Request a Quote
-							</h2>
-						</div>
-						<input
-							type="text"
-							class="placeholder:italic pl-[14px] focus:outline-none my-4 h-10 rounded-sm"
-							placeholder="Name"
-						/>
-						<input
-							type="text"
-							class="placeholder:italic pl-[14px] focus:outline-none mb-4 h-10 rounded-sm"
-							placeholder="Phone"
-						/>
-						<select
-							id="select"
-							class="placeholder:italic pl-[14px] focus:outline-none mb-4 h-10 rounded-sm"
-						>
-							<option>Book Keeping</option>
-							<option>Payroll Management</option>
-							<option>Accountancy Services</option>
-							<option>Internal Audit Services</option>
-							<option>Tax Management Services</option>
-							<option>Accounting System & Monitoring</option>
-						</select>
-						<div class="support-actions">
-							<button
-								class="px-6 py-3 bg-white rounded-full text-brightRed shadow-2xl baseline hover:bg-gray-900"
-							>
-								Send
-							</button>
-						</div>
-					</form>
-				</div>
-			</div>
-		</section>
 
 		<!-- Footer -->
 		<section class="bg-white">
@@ -900,6 +901,103 @@
 			</div>
 		</section>
 
+		<!-- WhatsApp Widget -->
+		<div id="whatsapp-chat" class="hide">
+			<div class="header-chat">
+				<div class="head-home">
+					<div class="info-avatar">
+						<img
+							src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1651503055/Victoriavisaconsultants/logo_icon-1_gft6za.png"
+						/>
+					</div>
+					<p>
+						<span class="whatsapp-name">ARILYD & ASSOCIATES</span><br /><small
+							>Typically replies within an hour</small
+						>
+					</p>
+				</div>
+				<div class="get-new hide">
+					<div id="get-label"></div>
+					<div id="get-nama"></div>
+				</div>
+			</div>
+			<div class="home-chat"></div>
+			<div class="start-chat">
+				<div
+					pattern="https://elfsight.com/assets/chats/patterns/whatsapp.png"
+					class="WhatsappChat__Component-sc-1wqac52-0 whatsapp-chat-body"
+				>
+					<div class="WhatsappChat__MessageContainer-sc-1wqac52-1 dAbFpq">
+						<div
+							style="opacity: 0"
+							class="WhatsappDots__Component-pks5bf-0 eJJEeC"
+						>
+							<div class="WhatsappDots__ComponentInner-pks5bf-1 hFENyl">
+								<div
+									class="WhatsappDots__Dot-pks5bf-2 WhatsappDots__DotOne-pks5bf-3 ixsrax"
+								></div>
+								<div
+									class="WhatsappDots__Dot-pks5bf-2 WhatsappDots__DotTwo-pks5bf-4 dRvxoz"
+								></div>
+								<div
+									class="WhatsappDots__Dot-pks5bf-2 WhatsappDots__DotThree-pks5bf-5 kXBtNt"
+								></div>
+							</div>
+						</div>
+						<div
+							style="opacity: 1"
+							class="WhatsappChat__Message-sc-1wqac52-4 kAZgZq"
+						>
+							<div class="WhatsappChat__Author-sc-1wqac52-3 bMIBDo">Agent</div>
+							<div class="WhatsappChat__Text-sc-1wqac52-2 iSpIQi">
+								Hi there 👋<br /><br />How can I help you?
+							</div>
+							<div class="WhatsappChat__Time-sc-1wqac52-5 cqCDVm">1:40</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="blanter-msg">
+					<textarea
+						id="chat-input"
+						placeholder="Write a response"
+						maxlength="120"
+						row="1"
+					></textarea>
+					<a href="javascript:void;" id="send-it">
+						<svg viewBox="0 0 448 448">
+							<path d="M.213 32L0 181.333 320 224 0 266.667.213 416 448 224z" />
+						</svg>
+					</a>
+				</div>
+			</div>
+			<div id="get-number"></div>
+			<a class="close-chat" href="javascript:void">×</a>
+		</div>
+		<a class="blantershow-chat" href="javascript:void" title="Show Chat">
+			<svg width="20" viewBox="0 0 24 24">
+				<defs />
+				<path
+					fill="#eceff1"
+					d="M20.5 3.4A12.1 12.1 0 0012 0 12 12 0 001.7 17.8L0 24l6.3-1.7c2.8 1.5 5 1.4 5.8 1.5a12 12 0 008.4-20.3z"
+				/>
+				<path
+					fill="#4caf50"
+					d="M12 21.8c-3.1 0-5.2-1.6-5.4-1.6l-3.7 1 1-3.7-.3-.4A9.9 9.9 0 012.1 12a10 10 0 0117-7 9.9 9.9 0 01-7 16.9z"
+				/>
+				<path
+					fill="#fafafa"
+					d="M17.5 14.3c-.3 0-1.8-.8-2-.9-.7-.2-.5 0-1.7 1.3-.1.2-.3.2-.6.1s-1.3-.5-2.4-1.5a9 9 0 01-1.7-2c-.3-.6.4-.6 1-1.7l-.1-.5-1-2.2c-.2-.6-.4-.5-.6-.5-.6 0-1 0-1.4.3-1.6 1.8-1.2 3.6.2 5.6 2.7 3.5 4.2 4.2 6.8 5 .7.3 1.4.3 1.9.2.6 0 1.7-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.2-.3-.3-.6-.4z"
+				/>
+			</svg>
+			Chat with Us</a
+		>
+
+		<script
+			src="https://code.jquery.com/jquery-3.6.0.min.js"
+			integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			crossorigin="anonymous"
+		></script>
 		<script src="js/script.js"></script>
 	</body>
 </html>
