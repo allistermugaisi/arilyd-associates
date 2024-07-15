@@ -14,57 +14,88 @@
     />
   </head>
   <body>
-    <!-- Navbar -->
-    <nav class="relative max-w-7xl mx-auto py-6">
-      <!-- Flex container -->
-      <div class="flex items-center justify-around md:justify-between">
-        <!-- Logo -->
-        <div class="pt-2">
-          <img
-            src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/c_scale,h_65,w_190/v1650098786/Arilydassociates/logo_xhetva.png"
-            alt=""
-          />
-        </div>
-        <!-- Menu Items -->
-        <div class="hidden space-x-6 md:flex">
-          <a href="/" class="hover:text-blue-400">Home</a>
-          <a href="/services.html" class="hover:text-blue-400">Services</a>
-          <a href="/about.html" class="hover:text-blue-400">About</a>
-          <a href="/blog.html" class="hover:text-blue-400">Blog</a>
-          <a href="/contact.html" class="hover:text-blue-400">Contact</a>
-        </div>
-        <!-- Button -->
-        <a
-          href="#"
-          class="hidden p-3 px-6 pt-2 text-white bg-darkBlue rounded-full baseline hover:bg-blue-400 md:block"
-          >Get Started?</a
-        >
+    <header
+      class="min-h-[27.875rem] relative bg-cover bg-center bg-[url('https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1721006981/Arilydassociates/arilyd-hero_jzm1ja.jpg')]"
+    >
+      <!-- Navbar -->
+      <nav class="relative max-w-7xl mx-auto py-6">
+        <!-- Flex container -->
+        <div class="flex items-center justify-around md:justify-between">
+          <!-- Logo -->
+          <div class="pt-2">
+            <img
+              src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/c_scale,h_65,w_190/v1650098786/Arilydassociates/logo_xhetva.png"
+              alt=""
+            />
+          </div>
+          <!-- Menu Items -->
+          <div class="hidden space-x-6 md:flex">
+            <a href="/" class="text-white hover:text-blue-400">Home</a>
+            <a href="/services.html" class="text-white hover:text-blue-400"
+              >Services</a
+            >
+            <a href="/about.html" class="text-white hover:text-blue-400"
+              >About</a
+            >
+            <a href="/blog.html" class="text-white hover:text-blue-400">Blog</a>
+            <a href="/contact.html" class="text-white hover:text-blue-400"
+              >Contact</a
+            >
+          </div>
+          <!-- Button -->
+          <a
+            href="contact.html"
+            class="hidden p-3 px-6 pt-2 text-darkBlue bg-white rounded-full baseline outline hover:outline-white hover:text-white hover:bg-transparent md:block"
+            >Get Started</a
+          >
 
-        <!-- Hamburger Icon -->
-        <button
-          id="menu-btn"
-          class="block hamburger md:hidden focus:outline-none"
-        >
-          <span class="hamburger-top"></span>
-          <span class="hamburger-middle"></span>
-          <span class="hamburger-bottom"></span>
-        </button>
-      </div>
+          <!-- Hamburger Icon -->
+          <button
+            id="menu-btn"
+            class="block hamburger md:hidden focus:outline-none"
+          >
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-bottom"></span>
+          </button>
+        </div>
 
-      <!-- Mobile Menu -->
-      <div class="md:hidden">
-        <div
-          id="menu"
-          class="absolute z-50 flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
-        >
-          <a href="/">Home</a>
-          <a href="/services.html">Services</a>
-          <a href="/about.html">About</a>
-          <a href="/blog.html">Blog</a>
-          <a href="/contact.html">Contact</a>
+        <!-- Mobile Menu -->
+        <div class="md:hidden">
+          <div
+            id="menu"
+            class="absolute z-50 flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+          >
+            <a href="/">Home</a>
+            <a href="/services.html">Services</a>
+            <a href="/about.html">About</a>
+            <a href="/blog.html">Blog</a>
+            <a href="/contact.html">Contact</a>
+          </div>
+        </div>
+      </nav>
+      <!-- End of Navbar -->
+
+      <div class="showcase">
+        <div class="w-full">
+          <h2 class="uppercase text-white text-2xl sm:text-4xl mb-4">
+            Your Trusted Partner in Financial Growth
+          </h2>
+        </div>
+        <div class="w-full sm:w-1/2 text-white">
+          <p class="text-base sm:text-xl">
+            Our powerful innovation tools help companies to understand Africa
+            entities/business and undercut the compliance risks thus helping you
+            to make informed decisions in trade, investment and partnership.
+          </p>
+        </div>
+        <div class="showcase-actions">
+          <button class="button">
+            <a href="contact.html">Book a Call</a>
+          </button>
         </div>
       </div>
-    </nav>
+    </header>
 
     <!-- Hero Section -->
     <section id="hero">
@@ -106,7 +137,7 @@
     <section id="features">
       <!-- Flex container -->
       <div
-        class="container flex flex-col px-4 mx-auto mt-10 space-x-4 space-y-12 md:space-y-0 md:flex-row"
+        class="max-w-7xl flex flex-col px-4 mx-auto mt-10 space-x-4 space-y-12 md:space-y-0 md:flex-row"
       >
         <!-- What's Different -->
         <div
@@ -229,7 +260,7 @@
     <section id="features">
       <!-- Flex container -->
       <div
-        class="container flex flex-col flex-end px-4 mx-auto mt-10 space-y-12 md:space-y-0 md:flex-row-reverse"
+        class="max-w-7xl flex flex-col flex-end px-4 mx-auto mt-10 space-y-12 md:space-y-0 md:flex-row-reverse"
       >
         <!-- What's Different -->
         <div
@@ -346,7 +377,7 @@
     <section id="cta" class="bg-darkBlue my-14">
       <!-- Flex Container -->
       <div
-        class="container flex flex-col items-center justify-between px-6 py-24 mx-auto space-y-12 md:py-12 md:flex-row md:space-y-0"
+        class="max-w-7xl flex flex-col items-center justify-between px-6 py-24 mx-auto space-y-12 md:py-12 md:flex-row md:space-y-0"
       >
         <!-- Heading -->
         <h2
@@ -418,7 +449,7 @@
     </section>
 
     <section class="body-font border-gray-200">
-      <div class="container px-5 py-24 mx-auto">
+      <div class="max-w-7xl px-5 py-24 mx-auto">
         <div class="flex flex-col text-center w-full mb-20">
           <h1 class="sm:text-3xl text-4xl font-bold mb-4">Our Team</h1>
           <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
